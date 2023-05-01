@@ -1,0 +1,35 @@
+version: '3.8'
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "80:80"
+    volumes:
+      - ./src:/var/www/html/
+    environment:
+      - KEYSPACE_NAME=my_keyspace
+    depends_on:
+      - db
+    networks:
+      - mynetwork
+
+  db:
+    image: scylladb/scylla
+    command: --smp 1 --memory 1G
+    ports:
+      - "9042:9042"
+      - "9160:9160"
+    volumes:
+      - scylla-data:/var/lib/scylla
+    networks:
+      - mynetwork
+
+volumes:
+  scylla-data:
+
+
+networks:
+  mynetwork:
+    driver: bridge
