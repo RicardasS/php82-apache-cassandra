@@ -1,10 +1,1 @@
-30-04-2023 23:16:05 UTC [ERROR] Unable to establish a control connection to host 172.20.0.2 because of the following error: Underlying connection error: Connection timeout (cluster_connector.cpp:191)
-30-04-2023 23:18:59 UTC [ERROR] Unable to establish a control connection to host 127.0.0.1 because of the following error: Underlying connection error: Connect error 'connection refused' (cluster_connector.cpp:191)
-30-04-2023 23:21:44 UTC [ERROR] Unable to establish a control connection to host 127.0.0.1 because of the following error: Underlying connection error: Connect error 'connection refused' (cluster_connector.cpp:191)
-30-04-2023 23:25:51 UTC [ERROR] Unable to establish a control connection to host 127.0.0.1 because of the following error: Underlying connection error: Connect error 'connection refused' (cluster_connector.cpp:191)
-30-04-2023 23:26:21 UTC [ERROR] Unable to establish a control connection to host 127.0.0.1 because of the following error: Underlying connection error: Connect error 'connection refused' (cluster_connector.cpp:191)
-30-04-2023 23:31:49 UTC [ERROR] Unable to establish a control connection to host 127.0.0.1 because of the following error: Underlying connection error: Connect error 'connection refused' (cluster_connector.cpp:191)
-30-04-2023 23:32:50 UTC [ERROR] Unable to establish a control connection to host 127.0.0.1 because of the following error: Underlying connection error: Connect error 'connection refused' (cluster_connector.cpp:191)
-30-04-2023 23:42:56 UTC [ERROR] Connection pool was unable to connect to host 172.28.0.2 because of the following error: Received error response 'Keyspace 'your_keyspace_name' does not exist' (0x02002200) (connection_pool_connector.cpp:148)
-01-05-2023 00:33:22 UTC [ERROR] Unable to establish a control connection to host 172.30.0.2 because of the following error: Underlying connection error: Connect error 'connection refused' (cluster_connector.cpp:191)
-01-05-2023 00:33:27 UTC [ERROR] Unable to establish a control connection to host 172.30.0.2 because of the following error: Underlying connection error: Connect error 'connection refused' (cluster_connector.cpp:191)
+
