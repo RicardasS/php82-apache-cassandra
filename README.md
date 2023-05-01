@@ -44,7 +44,5 @@ This repository contains the following configuration files:
 - test.php: Script for testing the connection to the Cassandra database and displaying a list of tables.
 
 ## Acknowledgements
-- PHP
-- Apache HTTP Server
 - ScyllaDB PHP Driver
 - ScyllaDB
